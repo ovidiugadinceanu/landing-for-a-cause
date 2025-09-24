@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: linear-gradient(to right, #F1A7F1, #FAD0C4);
+}
+.post {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 5vw;
+    gap: 5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descriere {
+    padding: 0 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 5vh;
+    padding-bottom: 5vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #9D50BB;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a:hover{
+    color:#FAD0C4;
+}
+
+.social {
+    font-size: 2rem;
+}
+
+.footernav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 3vw;
+}
+.linkuri {
+    display: flex;
+    flex-direction: column;
+}
+.masthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 80vh; 
+    overflow: hidden;
+    background-size: cover !important;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.65) 100%), url(hero.png) no-repeat center center scroll;
+  }
+  
+.herotxt {
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 1px;
+  }
+  .navigation{
+    background:#9D50BB;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    height: 60px;
+
+}
+.navigation-list{
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+
+}
+.navigation-list .item-lista{
+    display:inline-block ;
+    padding: 20px 10px;
+}
+.navigation a{
+    color:white;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color:#FAD0C4;
+}
+.logo{
+    height: 40px;
+    display: flex;
+    margin-left: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-left: 46.5%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .vol {
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+  }
+  
+  .rowv:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+.contact{
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    background-color: #9D50BB;
+    color: white;
+}
+.cnt{
+    margin-left: 10px;
+}
+.txtp{
+    margin-left: 10px;
+}
+
+.titlu {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
